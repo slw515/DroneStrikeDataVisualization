@@ -1,0 +1,152 @@
+
+    .visual-component {
+        background: #464646;
+        margin-top: 3%;
+        width: 100%;
+    }
+    .visual-component .inner-panel {
+        width: 70%; padding: 30px 3px;  color: #fff; font-family: 'AcuminProCond-Regular';
+        margin: auto;
+    }
+    .visual-component .inner-panel .inner-viewable { }
+
+    .visual-component .inner-viewable .swipeable .swipeable-item {
+        text-align: left; 
+    }
+
+    .visual-component .inner-viewable .swipeable .swipeable-item .item-frame {
+        height: 400px; width: auto;  text-align: left;
+        max-width: 70%;
+    }
+
+    .visual-component .inner-viewable .swipeable .swipeable-item .item-frame .item-frame-img {
+        background-color: #5f259f;
+        background-position: center;
+        background-origin: inherit;
+        background-size: cover;
+        height: 100%;
+        -moz-box-shadow: inset 0 0 10px #000000;
+        -webkit-box-shadow: inset 0 0 10px #000000;
+        box-shadow: inset 0 0 10px #000000;
+
+    }
+
+    .visual-component .inner-viewable .swipeable .swipeable-item .item-title {
+        margin-top: 15px; line-height: 1; font-family:"AcuminProCond-Regular"; display: none;
+    }
+
+    .visual-component .inner-viewable .swipeable .swipeable-item .item-title  span.bold{
+        font-weight: 600; font-family: "AcuminProCond-Bold";
+    }
+
+    .visual-component .inner-viewable .swipeable .swipeable-item .item-desc {
+        max-width: 100%; font-family: "AcuminPro-Semibold"; font-size: 14px; line-height: 1.5;
+        margin: auto; padding: 5px 0px 10px 0; text-align: left; min-height: 100px; display: none;
+    }
+
+    .visual-component .inner-controls {
+        display: none; cursor: default;
+        -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+    }
+
+    .visual-component .inner-controls .year-labels {
+        margin-top: 15px; width: 100%; text-align: right; height: 40px;
+    }
+
+    .visual-component .inner-controls .year-labels  span{
+        font-weight: 400; font-size: 12px; float: left; text-align: left; font-family:"AcuminPro-Regular";
+    }
+
+    .visual-component .inner-controls .rangeslider__fill{
+        background: #5f259f;
+    }
+    .visual-component .inner-controls .rangeslider {
+        cursor: pointer;
+    }
+
+    .slidecontainer {
+        width: 100%;
+    }
+
+    .slider {
+        -webkit-appearance: none;
+        width: calc(100% + 4px);
+        height: 15px;
+        border-radius: 5px;
+        background: #fff;
+        outline: none;
+        opacity: 1;
+        -webkit-transition: .2s;
+        transition: opacity .2s;
+    }
+
+    .slider:hover {
+        opacity: 1;
+    }
+
+    .slider::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        appearance: none;
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #5f259f;
+        cursor: pointer;
+    }
+
+    .slider::-moz-range-thumb {
+        width: 25px;
+        height: 25px;
+        border-radius: 50%;
+        background: #5f259f;
+        cursor: pointer;
+    }
+    .slider-prog{
+        position: relative; width: 0; background: #5f259f; opacity: 0.75; z-index: 1; pointer-events: none; margin-bottom: -15px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+
+    @media screen and (max-width: 1350px) {
+/* 
+        .visual-component .inner-panel {
+            width: 90%; margin: auto;
+        } */
+    }
+
+    @media screen and (max-width: 800px) {
+    }
+
+    @media screen and (max-width: 600px) {
+        .map-inner {
+            margin-top: -80px;
+        }
+        .visual-component {
+            margin-top: -70px;
+        }
+        .visual-component .inner-viewable .swipeable .swipeable-item .item-title {
+            font-size: 22px; min-height: 45px;
+        }
+
+        .visual-component .inner-viewable .swipeable .swipeable-item .item-desc {
+            min-height: 120px;
+        }
+
+        .visual-component .inner-viewable .swipeable .swipeable-item .item-frame {
+            height: 250px; 
+        }
+
+    }
+
+    @media screen and (max-width: 370px) {
+        .map-inner {
+            margin-top: -110px;
+        }
+        /* .visual-component .inner-panel {
+            margin-top: -80px;
+    } */
+}    

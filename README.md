@@ -1,4 +1,8 @@
 # Dronestrike Data Visualization
+**Link to Website: http://stevenwyks.com/portfolioUpload/index.html**
+![Screenshot of Data Visualization](https://raw.githubusercontent.com/slw515/DroneStrikeDataVisualization/master/documentationpics/strike.png)
+
+
 
 Based on the this data visualization of Brexit created by the National, as a part of my internship for the news agency, I was tasked with developing a visualization for dronestrikes in Northwestern Pakistan. This visualization is intended to show the devastation that these strikes have caused for the people of the region, displaying the strikes' catastrophic civilian casualties. This project uses data from The Bureau of Investigative Journalism on the casualties of each strike in the region.
 
